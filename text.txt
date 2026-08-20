@@ -1,1 +1,662 @@
+Project 3 — Wanderlust Travel
 
+This project is a travel agency website. It will be more challenging than your Coffee Shop and FitZone projects because you'll have more complex cards, overlapping elements, package pricing, testimonials, and a booking form.
+
+1. Navbar
+Logo
+
+WANDERLUST
+
+Navigation
+Home
+Destinations
+Packages
+About
+Reviews
+Contact
+Button
+
+Book Now
+
+2. Hero Section
+
+Use a beautiful travel image as the background.
+
+Small heading
+
+EXPLORE THE WORLD
+
+Main heading
+
+Your Journey Begins Here
+
+Paragraph
+
+Discover breathtaking destinations, unforgettable experiences, and carefully planned trips designed to make your next adventure truly special.
+
+Buttons
+
+Explore Destinations
+
+View Packages
+
+Search/Booking Box
+
+Place a white search box over or near the bottom of the hero section.
+
+Fields:
+
+Destination
+
+Where do you want to go?
+
+Travel Date
+
+Choose your date
+
+Travelers
+
+Number of travelers
+
+Button:
+
+Search Trips
+
+The form doesn't need to actually work. You're practicing the layout.
+
+3. Popular Destinations
+Heading
+
+Popular Destinations
+
+Subtitle
+
+Explore some of the world's most beautiful destinations.
+
+Create 6 destination cards.
+
+Paris
+
+France
+
+Experience romantic streets, historic architecture, world-famous cuisine, and the beauty of the Eiffel Tower.
+
+Explore →
+
+Bali
+
+Indonesia
+
+Relax on tropical beaches, discover ancient temples, and experience the unique culture of the Island of the Gods.
+
+Explore →
+
+Dubai
+
+United Arab Emirates
+
+Experience futuristic architecture, luxury shopping, desert adventures, and unforgettable city views.
+
+Explore →
+
+Switzerland
+
+Europe
+
+Discover breathtaking mountains, peaceful villages, crystal-clear lakes, and unforgettable Alpine scenery.
+
+Explore →
+
+Maldives
+
+Indian Ocean
+
+Escape to paradise with turquoise waters, white sandy beaches, luxury resorts, and stunning sunsets.
+
+Explore →
+
+Tokyo
+
+Japan
+
+Experience the perfect combination of ancient traditions, modern technology, incredible food, and vibrant city life.
+
+Explore →
+
+4. Why Travel With Us?
+
+Create 4 feature cards.
+
+Expert Planning
+
+Our experienced travel team carefully plans every detail of your journey.
+
+Best Price
+
+Enjoy competitive prices without compromising on quality.
+
+Trusted Service
+
+We work with reliable hotels, guides, and transportation providers.
+
+24/7 Support
+
+We're available whenever you need help during your trip.
+
+5. About Wanderlust
+
+Create a two-column section.
+
+Left
+
+Large travel image.
+
+Right
+
+Small heading:
+
+ABOUT WANDERLUST
+
+Main heading
+
+Travel More. Discover More. Live More.
+
+Paragraph 1
+
+At Wanderlust Travel, we believe that traveling is more than visiting new places. It's about discovering new cultures, meeting new people, and creating memories that last a lifetime.
+
+Paragraph 2
+
+Our team creates carefully planned travel experiences for solo travelers, couples, families, and groups.
+
+Statistics
+
+Create four small statistics:
+
+10+
+
+Years Experience
+
+50+
+
+Destinations
+
+15K+
+
+Happy Travelers
+
+98%
+
+Customer Satisfaction
+
+Button:
+
+Learn More
+
+6. Featured Travel Packages
+
+
+
+
+
+
+This is one of the most important sections of Project 3.
+
+Create 3 large package cards.
+
+Bali Escape
+7 Days / 6 Nights
+
+$899
+
+Includes:
+
+Hotel Accommodation
+Airport Transfer
+Daily Breakfast
+Island Tour
+Professional Guide
+
+Button:
+
+View Package
+
+Badge:
+
+BEST SELLER
+
+Swiss Adventure
+8 Days / 7 Nights
+
+$1,499
+
+Includes:
+
+4-Star Hotel
+Airport Transfer
+Mountain Excursion
+Scenic Train Ride
+Professional Guide
+
+Button:
+
+View Package
+
+Badge:
+
+POPULAR
+
+Dubai Experience
+5 Days / 4 Nights
+
+$799
+
+Includes:
+
+Luxury Hotel
+Airport Transfer
+Desert Safari
+City Tour
+Burj Khalifa Visit
+
+Button:
+
+View Package
+
+Badge:
+
+LIMITED OFFER
+
+
+
+
+
+
+
+
+Package Card Challenge
+
+Try to create something similar to:
+
+┌──────────────────────────┐
+│        IMAGE             │
+│                          │
+│  BEST SELLER             │ ← badge
+├──────────────────────────┤
+│ Bali Escape              │
+│ 7 Days / 6 Nights        │
+│                          │
+│ ✓ Hotel                  │
+│ ✓ Breakfast              │
+│ ✓ Island Tour            │
+│                          │
+│ $899        View Package │
+└──────────────────────────┘
+
+You should practice:
+
+position: relative;
+position: absolute;
+
+for the badge.
+
+7. Special Offer
+
+Create a visually different promotional section.
+
+Use a beautiful background image.
+
+Heading
+
+Ready for Your Next Adventure?
+
+Paragraph
+
+Book your dream vacation today and receive up to 20% off selected travel packages.
+
+Offer
+
+20% OFF
+
+Selected Destinations
+
+Button:
+
+Explore Offers
+
+8. Travel Experiences
+
+Create a 4-card grid.
+
+Adventure
+
+Hiking, mountain climbing, rafting, and unforgettable outdoor experiences.
+
+Relaxation
+
+Luxury resorts, peaceful beaches, spas, and beautiful sunsets.
+
+Culture
+
+Discover local traditions, historical landmarks, food, and authentic experiences.
+
+Food & Cuisine
+
+Taste traditional dishes and explore the world's most exciting food destinations.
+
+9. Customer Reviews
+Heading
+
+What Our Travelers Say
+
+Create 3 testimonial cards.
+
+Emma Wilson
+
+★★★★★
+
+"Wanderlust made our Bali trip absolutely unforgettable. Everything was perfectly organized from start to finish."
+
+Daniel Smith
+
+★★★★★
+
+"The Swiss Adventure package was amazing. The hotel, transportation, and tours were all excellent."
+
+Sophia Brown
+
+★★★★★
+
+"Professional service, beautiful destinations, and great prices. I'll definitely book my next trip with Wanderlust."
+
+10. Newsletter Section
+
+Create a centered section.
+
+Heading
+
+Get Travel Inspiration
+
+Paragraph
+
+Subscribe to our newsletter and receive travel tips, destination guides, special offers, and exclusive deals.
+
+Form
+
+Input:
+
+Enter your email address
+
+Button:
+
+Subscribe
+
+11. Contact / Booking Section
+
+Create a two-column layout.
+
+Left Side
+Let's Plan Your Trip
+
+Have a destination in mind? Tell us about your dream vacation and our travel experts will help you plan it.
+
+Contact Information
+
+Address
+
+25 Adventure Street
+Downtown
+
+Phone
+
++1 (555) 456-7890
+
+Email
+
+hello@wanderlust.com
+
+Opening Hours
+
+Monday – Friday
+9:00 AM – 6:00 PM
+
+Saturday
+10:00 AM – 4:00 PM
+
+Right Side
+
+Create a travel inquiry form.
+
+Full Name
+
+Input
+
+Email Address
+
+Input
+
+Destination
+
+Dropdown:
+
+Paris
+Bali
+Dubai
+Switzerland
+Maldives
+Tokyo
+Other
+Travel Date
+
+Date input
+
+Number of Travelers
+
+Number input
+
+Message
+
+Textarea
+
+Button
+
+Send Inquiry
+
+12. Footer
+WANDERLUST
+
+Explore. Dream. Discover.
+
+Quick Links
+Home
+Destinations
+Packages
+About
+Reviews
+Contact
+Popular Destinations
+Paris
+Bali
+Dubai
+Switzerland
+Maldives
+Tokyo
+Follow Us
+Facebook
+Instagram
+YouTube
+Pinterest
+Footer Text
+
+© 2026 Wanderlust Travel. All Rights Reserved.
+
+
+
+
+Suggested Color Palette
+
+This time, don't randomly choose colors.
+
+Try something like:
+
+Primary:     #0F766E
+Secondary:   #14B8A6
+Accent:      #F59E0B
+Dark:        #0F172A
+Light:       #F8FAFC
+White:       #FFFFFF
+
+You can change these if you develop your own design.
+
+
+
+
+Responsive Requirements
+
+Your website must work on:
+
+Desktop
+[ Card ] [ Card ] [ Card ]
+[ Card ] [ Card ] [ Card ]
+Tablet
+[ Card ] [ Card ]
+[ Card ] [ Card ]
+[ Card ] [ Card ]
+Mobile
+[ Card ]
+[ Card ]
+[ Card ]
+[ Card ]
+[ Card ]
+[ Card ]
+
+The same principle should apply to:
+
+Destinations
+Packages
+Experiences
+Testimonials
+Contact section
+
+
+New CSS Challenges
+
+These are the things I especially want you to practice in Project 3.
+
+1. Overlapping elements
+
+For example, the search box can overlap the bottom of your hero.
+
+Practice:
+
+position: relative;
+position: absolute;
+2. Image overlays
+
+Try creating a dark gradient over destination images so the destination name can sit on top of the image.
+
+3. Badges
+
+Create:
+
+BEST SELLER
+
+POPULAR
+
+LIMITED OFFER
+
+using absolute positioning.
+
+4. CSS Grid
+
+Use Grid for:
+
+Destinations
+Packages
+Experiences
+Testimonials
+5. Flexbox
+
+Use Flexbox for:
+
+Navbar
+Hero buttons
+Statistics
+Package footer
+Contact information
+6. Hover effects
+
+Try making destination cards do something when the mouse enters them.
+
+For example:
+
+Image zoom
+Card moves slightly upward
+Button changes
+Overlay becomes darker/lighter
+
+Don't copy all of these—experiment.
+
+7. CSS Variables
+
+Use:
+
+:root {
+    --primary: ...;
+    --secondary: ...;
+    --accent: ...;
+    --dark: ...;
+    --light: ...;
+}
+
+This should now become a normal habit.
+
+Suggested Folder Structure
+WANDERLUST_TRAVEL/
+│
+├── index.html
+├── style.css
+│
+├── images/
+│   ├── hero.jpg
+│   ├── paris.jpg
+│   ├── bali.jpg
+│   ├── dubai.jpg
+│   ├── switzerland.jpg
+│   ├── maldives.jpg
+│   ├── tokyo.jpg
+│   ├── package1.jpg
+│   ├── package2.jpg
+│   └── package3.jpg
+│
+└── README.md
+
+
+Bonus Challenges
+
+If you finish everything above, try these without JavaScript:
+
+Add a CSS-only dropdown menu
+Add animated underline to navbar links
+Add a hover zoom effect to destination images
+Make the search box overlap the hero
+Make the package cards equal height
+Add a "20% OFF" circular badge
+Create a CSS-only hamburger menu if you can figure it out
+Add scroll-behavior: smooth
+Add focus styles to form inputs
+Make the entire website mobile-friendly
+
+
+
+What makes Project 3 different?
+
+Your first projects were mainly about building sections.
+
+Now I want you to start thinking about design systems and layout relationships:
+
+Hero → overlapping search box → destination grid → feature cards → package cards → promotional section → testimonials → forms
+
+Don't worry if it takes longer than the previous two projects. That's intentional.
+
+Build it yourself first. If you get stuck, send me the specific HTML/CSS you're working on rather than asking for the complete solution. I'll help you understand the problem without taking the practice away from you.
