@@ -50,11 +50,6 @@ body {
     color: #d99a25;
 }
 
-
-/* =========================
-   BOOK NOW BUTTON
-========================= */
-
 .book_btn {
     text-decoration: none;
 
@@ -76,55 +71,42 @@ body {
 }
 
 @media (max-width: 900px) {
-
     .navbar {
         padding: 18px 4%;
     }
-
     .nav_links {
         gap: 18px;
     }
-
     .nav_links li a {
         font-size: 14px;
     }
-
     .logo {
         font-size: 21px;
     }
-
 }
 
 @media (max-width: 700px) {
-
     .navbar {
         flex-direction: column;
         gap: 20px;
     }
-
     .nav_links {
         flex-wrap: wrap;
         justify-content: center;
     }
-
 }
 
 @media (max-width: 450px) {
-
     .navbar {
         padding: 20px;
     }
-
     .nav_links {
         gap: 12px 18px;
     }
-
     .nav_links li a {
         font-size: 13px;
     }
-
     .book_btn {
         padding: 10px 20px;
     }
-
 }
