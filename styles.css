@@ -1,1 +1,164 @@
+/* =========================
+   RESET
+========================= */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    width: 100%;
+    padding: 20px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1d3b35;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.nav_links {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    list-style: none;
+}
+
+.nav_links li a {
+    text-decoration: none;
+
+    color: #222;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.nav_links li a:hover {
+    color: #d99a25;
+}
+
+
+/* =========================
+   BOOK NOW BUTTON
+========================= */
+
+.book_btn {
+    text-decoration: none;
+
+    padding: 12px 24px;
+
+    background-color: #d99a25;
+    color: white;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.book_btn:hover {
+    background-color: #b77c12;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 18px 4%;
+    }
+
+    .nav_links {
+        gap: 18px;
+    }
+
+    .nav_links li a {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav_links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 450px) {
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .nav_links {
+        gap: 12px 18px;
+    }
+
+    .nav_links li a {
+        font-size: 13px;
+    }
+
+    .book_btn {
+        padding: 10px 20px;
+    }
+
+}
