@@ -1,3 +1,9 @@
+color : #d99a25
+        #1d3b35
+        white
+
+
+
 Project 3 — Wanderlust Travel
 
 This project is a travel agency website. It will be more challenging than your Coffee Shop and FitZone projects because you'll have more complex cards, overlapping elements, package pricing, testimonials, and a booking form.
