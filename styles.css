@@ -75,11 +75,6 @@ body {
     background-color: #b77c12;
 }
 
-
-/* =========================
-   RESPONSIVE
-========================= */
-
 @media (max-width: 900px) {
 
     .navbar {
