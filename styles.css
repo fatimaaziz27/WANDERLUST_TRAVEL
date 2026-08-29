@@ -27,11 +27,6 @@ body {
     color: #1d3b35;
 }
 
-
-/* =========================
-   NAVIGATION
-========================= */
-
 .nav_links {
     display: flex;
     align-items: center;
