@@ -29,9 +29,7 @@ body {
 .nav_links {
     display: flex;
     align-items: center;
-
     gap: 30px;
-
     list-style: none;
 }
 
