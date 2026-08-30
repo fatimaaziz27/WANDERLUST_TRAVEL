@@ -2,55 +2,77 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>WANDERLUST</title>
+
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    
+
+
+    <!-- =========================
+         1. NAVBAR
+    ========================== -->
+
     <nav class="navbar">
+
+        <!-- Logo -->
         <div class="logo">
             WANDERLUST
         </div>
+
+
+        <!-- Navigation -->
         <ul class="nav_links">
+
             <li>
                 <a href="#home">Home</a>
             </li>
+
             <li>
                 <a href="#destinations">Destinations</a>
             </li>
+
             <li>
                 <a href="#packages">Packages</a>
             </li>
+
             <li>
                 <a href="#about">About</a>
             </li>
+
             <li>
                 <a href="#reviews">Reviews</a>
             </li>
+
             <li>
                 <a href="#contact">Contact</a>
             </li>
+
         </ul>
+
+
+        <!-- Book Now -->
         <a href="#contact" class="book_btn">
             Book Now
         </a>
+
     </nav>
-    
 
 
 
-
-
-    
     <!-- =========================
          2. HERO SECTION
     ========================== -->
 
     <section class="hero" id="home">
 
+        <!-- Hero Content -->
         <div class="hero_content">
 
             <!-- Small Heading -->
@@ -74,7 +96,7 @@
             </p>
 
 
-            <!-- Buttons -->
+            <!-- Hero Buttons -->
             <div class="hero_buttons">
 
                 <a href="#destinations" class="primary_btn">
@@ -97,15 +119,17 @@
 
         <div class="search_box">
 
+
             <!-- Destination -->
             <div class="search_field">
 
-                <label>
+                <label for="destination">
                     Destination
                 </label>
 
                 <input
                     type="text"
+                    id="destination"
                     placeholder="Where do you want to go?"
                 >
 
@@ -115,13 +139,13 @@
             <!-- Travel Date -->
             <div class="search_field">
 
-                <label>
+                <label for="travel_date">
                     Travel Date
                 </label>
 
                 <input
-                    type="text"
-                    placeholder="Choose your date"
+                    type="date"
+                    id="travel_date"
                 >
 
             </div>
@@ -130,27 +154,32 @@
             <!-- Travelers -->
             <div class="search_field">
 
-                <label>
+                <label for="travelers">
                     Travelers
                 </label>
 
                 <input
-                    type="text"
+                    type="number"
+                    id="travelers"
                     placeholder="Number of travelers"
+                    min="1"
                 >
 
             </div>
 
 
             <!-- Search Button -->
-            <button class="search_btn">
+            <button class="search_btn" type="button">
                 Search Trips
             </button>
+
 
         </div>
 
     </section>
 
 
+
 </body>
+
 </html>
