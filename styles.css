@@ -103,10 +103,10 @@ body {
 
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.40),
+            #000000a8,
             rgba(0, 0, 0, 0.40)
         ),
-        url("travel.jpg");
+        url("travel1.jpg");
 
     background-size: cover;
     background-position: center;
