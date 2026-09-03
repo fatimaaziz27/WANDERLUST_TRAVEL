@@ -754,9 +754,7 @@ body {
 
 
 
-/* =========================
-   EXPLORE LINK
-========================= */
+   /* EXPLORE LINK */
 
 .destination_content a {
     color: #1d3b35;
@@ -778,9 +776,7 @@ body {
 
 
 
-/* =========================
-   TABLET
-========================= */
+   /* TABLET */
 
 @media (max-width: 1000px) {
 
