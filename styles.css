@@ -606,9 +606,7 @@ body {
 
 
 
-/* =========================
-   3. POPULAR DESTINATIONS
-========================= */
+   /* 3. POPULAR DESTINATIONS */
 
 .destinations {
     padding: 100px 7%;
@@ -617,9 +615,7 @@ body {
 }
 
 
-/* =========================
-   SECTION HEADING
-========================= */
+   /* SECTION HEADING */
 
 .section_heading {
     text-align: center;
@@ -642,10 +638,7 @@ body {
 }
 
 
-
-/* =========================
-   DESTINATION CARDS
-========================= */
+   /* DESTINATION CARDS */
 
 .destination_cards {
     display: grid;
@@ -657,9 +650,7 @@ body {
 
 
 
-/* =========================
-   DESTINATION CARD
-========================= */
+   /* DESTINATION CARD */
 
 .destination_card {
     background-color: white;
@@ -681,9 +672,7 @@ body {
 
 
 
-/* =========================
-   DESTINATION IMAGE
-========================= */
+   /* DESTINATION IMAGE */
 
 .destination_image {
     width: 100%;
@@ -711,9 +700,7 @@ body {
 
 
 
-/* =========================
-   CARD CONTENT
-========================= */
+   /* CARD CONTENT */
 
 .destination_content {
     padding: 25px;
