@@ -13,6 +13,9 @@ body {
 }
 
 
+/* =========================
+   NAVBAR
+========================= */
 
 .navbar {
     width: 100%;
@@ -29,8 +32,6 @@ body {
 }
 
 
-
-
 .logo {
     font-size: 25px;
     font-weight: bold;
@@ -38,7 +39,6 @@ body {
 
     color: #1d3b35;
 }
-
 
 
 .nav_links {
@@ -49,6 +49,7 @@ body {
 
     list-style: none;
 }
+
 
 .nav_links li a {
     text-decoration: none;
@@ -61,11 +62,10 @@ body {
     transition: 0.3s;
 }
 
+
 .nav_links li a:hover {
     color: #d99a25;
 }
-
-
 
 
 .book_btn {
@@ -84,12 +84,15 @@ body {
     transition: 0.3s;
 }
 
+
 .book_btn:hover {
     background-color: #b77c12;
 }
 
 
-
+/* =========================
+   HERO
+========================= */
 
 .hero {
     min-height: 100vh;
@@ -101,121 +104,67 @@ body {
 
     position: relative;
 
-    background-image:
-        linear-gradient(
-            #000000a8,
-            rgba(0, 0, 0, 0.40)
-        ),
-        url("travel1.jpg");
-
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-.hero {
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     animation: slideImages 15s infinite;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-/* Text */
-.content {
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
-    border-radius: 10px;
-}
 
-.content h1 {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
+/* =========================
+   BACKGROUND IMAGE SLIDER
+========================= */
 
-.content p {
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-
-button {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    background: white;
-    color: black;
-    cursor: pointer;
-} */
-
-
-/* Background Image Slider */
-/* @keyframes slideImages {
+@keyframes slideImages {
 
     0% {
-        background-image: url("travel1.jpg");
+        background-image:
+            linear-gradient(
+                #000000a8,
+                rgba(0, 0, 0, 0.40)
+            ),
+            url("travel1.jpg");
     }
 
     33% {
-        background-image: url("travel2.jpg");
+        background-image:
+            linear-gradient(
+                #000000a8,
+                rgba(0, 0, 0, 0.40)
+            ),
+            url("travel2.webp");
     }
 
     66% {
-        background-image: url("travel3.jpg");
+        background-image:
+            linear-gradient(
+                #000000a8,
+                rgba(0, 0, 0, 0.40)
+            ),
+            url("travel5.webp");
     }
 
     100% {
-        background-image: url("travel1.jpg");
+        background-image:
+            linear-gradient(
+                #000000a8,
+                rgba(0, 0, 0, 0.40)
+            ),
+            url("travel4.jpg");
     }
-} */
+}
 
 
-
-
+/* =========================
+   HERO CONTENT
+========================= */
 
 .hero_content {
     max-width: 650px;
 
     color: white;
 }
-
-
-
 
 
 .small_heading {
@@ -229,10 +178,6 @@ button {
 }
 
 
-
-
-
-
 .hero_content h1 {
     font-size: 65px;
 
@@ -240,10 +185,6 @@ button {
 
     margin-bottom: 25px;
 }
-
-
-
-
 
 
 .hero_text {
@@ -257,16 +198,15 @@ button {
 }
 
 
-
-
-
+/* =========================
+   HERO BUTTONS
+========================= */
 
 .hero_buttons {
     display: flex;
 
     gap: 15px;
 }
-
 
 
 /* Explore Destinations */
@@ -288,10 +228,10 @@ button {
     transition: 0.3s;
 }
 
+
 .primary_btn:hover {
     background-color: #b77c12;
 }
-
 
 
 /* View Packages */
@@ -315,14 +255,16 @@ button {
     transition: 0.3s;
 }
 
+
 .secondary_btn:hover {
     background-color: white;
     color: #222;
 }
 
 
-
-
+/* =========================
+   SEARCH BOX
+========================= */
 
 .search_box {
     width: 86%;
@@ -347,10 +289,6 @@ button {
 }
 
 
-
-
-
-
 .search_field {
     flex: 1;
 
@@ -359,7 +297,6 @@ button {
 
     gap: 8px;
 }
-
 
 
 /* Label */
@@ -371,7 +308,6 @@ button {
 
     color: #333;
 }
-
 
 
 /* Input */
@@ -394,14 +330,13 @@ button {
     background-color: white;
 }
 
+
 .search_field input::placeholder {
     color: #999;
 }
 
 
-
-
-
+/* Search Button */
 
 .search_btn {
     padding: 14px 25px;
@@ -425,14 +360,15 @@ button {
     transition: 0.3s;
 }
 
+
 .search_btn:hover {
     background-color: #b77c12;
 }
 
 
-
-
-
+/* =========================
+   TABLET
+========================= */
 
 @media (max-width: 1000px) {
 
@@ -442,13 +378,16 @@ button {
         padding: 18px 4%;
     }
 
+
     .nav_links {
         gap: 18px;
     }
 
+
     .nav_links li a {
         font-size: 14px;
     }
+
 
     .logo {
         font-size: 21px;
@@ -462,6 +401,7 @@ button {
         padding-right: 5%;
     }
 
+
     .hero_content h1 {
         font-size: 55px;
     }
@@ -473,13 +413,12 @@ button {
         width: 90%;
         left: 5%;
     }
-
 }
 
 
-
-
-
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 750px) {
 
@@ -493,11 +432,13 @@ button {
         padding: 15px 20px;
     }
 
+
     .logo {
         width: 100%;
 
         text-align: center;
     }
+
 
     .nav_links {
         flex-wrap: wrap;
@@ -506,6 +447,7 @@ button {
 
         gap: 10px 18px;
     }
+
 
     .book_btn {
         display: none;
@@ -570,13 +512,12 @@ button {
     .search_btn {
         width: 100%;
     }
-
 }
 
 
-
-
-
+/* =========================
+   SMALL MOBILE
+========================= */
 
 @media (max-width: 450px) {
 
@@ -586,9 +527,11 @@ button {
         padding: 20px;
     }
 
+
     .nav_links {
         gap: 12px 18px;
     }
+
 
     .nav_links li a {
         font-size: 12px;
@@ -628,5 +571,4 @@ button {
 
         text-align: center;
     }
-
 }
