@@ -255,10 +255,8 @@
 
     </div>
 
-
     <!-- Destination Cards -->
     <div class="destination_cards">
-
 
         <!-- Paris -->
         <div class="destination_card">
@@ -290,8 +288,6 @@
 
         </div>
 
-
-
         <!-- Bali -->
         <div class="destination_card">
 
@@ -321,8 +317,6 @@
             </div>
 
         </div>
-
-
 
         <!-- Dubai -->
         <div class="destination_card">
@@ -354,8 +348,6 @@
 
         </div>
 
-
-
         <!-- Switzerland -->
         <div class="destination_card">
 
@@ -385,8 +377,6 @@
             </div>
 
         </div>
-
-
 
         <!-- Maldives -->
         <div class="destination_card">
@@ -418,8 +408,6 @@
 
         </div>
 
-
-
         <!-- Tokyo -->
         <div class="destination_card">
 
@@ -450,7 +438,6 @@
 
         </div>
 
-
     </div>
 
 </section>
@@ -463,41 +450,51 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="script.js">
-
 let slideIndex = 0;
-
 const images = [
     "travel1.jpg",
     "travel2.webp",
     "travel5.webp",
     "travel4.jpg"
 ];
-
 function carousel() {
-
     const hero = document.querySelector(".hero");
-
     hero.style.backgroundImage =
         `linear-gradient(
             #000000a8,
             rgba(0, 0, 0, 0.40)
         ),
         url("${images[slideIndex]}")`;
-
     slideIndex++;
-
     if (slideIndex >= images.length) {
         slideIndex = 0;
     }
-
     setTimeout(carousel, 4800);
 }
-
 carousel();
-
 </script>
 
 </body>
-
 </html>
