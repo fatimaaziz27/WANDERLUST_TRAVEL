@@ -129,28 +129,6 @@ Explore →
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 4. Why Travel With Us?
 
 Create 4 feature cards.
@@ -170,6 +148,9 @@ We work with reliable hotels, guides, and transportation providers.
 24/7 Support
 
 We're available whenever you need help during your trip.
+
+
+
 
 
 
@@ -233,11 +214,18 @@ Button:
 
 Learn More
 
+
+
+
+
+
+
+
+
+
+
+
 6. Featured Travel Packages
-
-
-
-
 
 
 This is one of the most important sections of Project 3.

@@ -992,3 +992,273 @@ padding-right: 50px;
             }
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        /* ================================
+           GENERAL
+        ================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #0f172a;
+        }
+
+
+        /* ================================
+           ABOUT SECTION
+        ================================= */
+
+        .about {
+            width: 100%;
+            padding: 90px 8%;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            gap: 70px;
+
+            align-items: center;
+
+            background: #ffffff;
+        }
+
+
+        /* ================================
+           LEFT IMAGE
+        ================================= */
+
+        .about-image {
+            width: 100%;
+            height: 550px;
+
+            overflow: hidden;
+
+            border-radius: 20px;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            display: block;
+
+            transition: 0.5s ease;
+        }
+
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+
+
+        /* ================================
+           RIGHT CONTENT
+        ================================= */
+
+        .about-content {
+            max-width: 600px;
+        }
+
+
+        /* Small Heading */
+
+        .about-small-heading {
+            color: #0284c7;
+
+            font-size: 14px;
+
+            font-weight: bold;
+
+            letter-spacing: 2px;
+
+            margin-bottom: 12px;
+        }
+
+
+        /* Main Heading */
+
+        .about-content h2 {
+            color: #0f172a;
+
+            font-size: 42px;
+
+            line-height: 1.2;
+
+            margin-bottom: 25px;
+        }
+
+
+        /* Paragraphs */
+
+        .about-text {
+            color: #64748b;
+
+            font-size: 16px;
+
+            line-height: 1.8;
+
+            margin-bottom: 15px;
+        }
+
+
+        /* ================================
+           STATISTICS
+        ================================= */
+
+        .statistics {
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 15px;
+
+            margin: 30px 0;
+        }
+
+
+        .stat {
+            padding: 15px 5px;
+
+            border-left: 2px solid #0284c7;
+        }
+
+
+        .stat h3 {
+            color: #0f172a;
+
+            font-size: 25px;
+
+            margin-bottom: 5px;
+        }
+
+
+        .stat p {
+            color: #64748b;
+
+            font-size: 12px;
+
+            line-height: 1.4;
+        }
+
+
+        /* ================================
+           LEARN MORE BUTTON
+        ================================= */
+
+        .learn-more {
+            display: inline-block;
+
+            padding: 13px 28px;
+
+            background: #0284c7;
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 15px;
+
+            font-weight: bold;
+
+            border-radius: 7px;
+
+            transition: 0.3s ease;
+        }
+
+
+        .learn-more:hover {
+            background: #0f172a;
+
+            transform: translateY(-2px);
+        }
+
+
+        /* ================================
+           TABLET
+        ================================= */
+
+        @media (max-width: 1000px) {
+
+            .about {
+                grid-template-columns: 1fr;
+
+                gap: 45px;
+
+                padding: 70px 6%;
+            }
+
+
+            .about-image {
+                height: 450px;
+            }
+
+
+            .about-content {
+                max-width: 100%;
+            }
+
+        }
+
+
+        /* ================================
+           MOBILE
+        ================================= */
+
+        @media (max-width: 600px) {
+
+            .about {
+                padding: 60px 5%;
+            }
+
+
+            .about-image {
+                height: 350px;
+
+                border-radius: 15px;
+            }
+
+
+            .about-content h2 {
+                font-size: 32px;
+            }
+
+
+            .about-text {
+                font-size: 15px;
+            }
+
+
+            .statistics {
+                grid-template-columns: repeat(2, 1fr);
+
+                gap: 20px;
+            }
+
+
+            .stat {
+                padding-left: 10px;
+            }
+
+        }
