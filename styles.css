@@ -829,9 +829,7 @@ padding-right: 50px;
 
 
 
-        /* =========================
-           GENERAL
-        ========================= */
+           /* GENERAL */
 
         * {
             margin: 0;
@@ -845,10 +843,8 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           WHY US SECTION
-        ========================= */
-
+           /* WHY US SECTION */
+       
         .why-us {
             padding: 80px 8%;
             background: #f8fafc;
@@ -856,9 +852,9 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           HEADING
-        ========================= */
+  
+           /* HEADING */
+
 
         .section-heading {
             max-width: 700px;
@@ -886,10 +882,8 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           CARDS
-        ========================= */
 
+        /* CARDS */
         .feature-cards {
             max-width: 1200px;
             margin: 50px auto 0;
@@ -900,9 +894,9 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           CARD
-        ========================= */
+
+           /* CARD */
+
 
         .feature-card {
             background: white;
@@ -922,9 +916,9 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           ICON
-        ========================= */
+
+           /* ICON */
+
 
         .feature-icon {
             width: 65px;
@@ -948,10 +942,8 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           CARD TEXT
-        ========================= */
-
+           /* CARD TEXT */
+ 
         .feature-card h3 {
             color: #1d3b35;
             font-size: 20px;
@@ -965,9 +957,7 @@ padding-right: 50px;
         }
 
 
-        /* =========================
-           TABLET
-        ========================= */
+           /* TABLET */
 
         @media (max-width: 1000px) {
 
@@ -977,10 +967,7 @@ padding-right: 50px;
 
         }
 
-
-        /* =========================
-           MOBILE
-        ========================= */
+           /* MOBILE */
 
         @media (max-width: 600px) {
 
