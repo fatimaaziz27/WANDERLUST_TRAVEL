@@ -820,15 +820,6 @@ padding-right: 50px;
 
 
 
-
-
-
-
-
-
-
-
-
            /* GENERAL */
 
         * {
@@ -996,12 +987,8 @@ padding-right: 50px;
 
 
 
-
-
-
-
         
-           /* GENERAL */
+        /* ABOUT SECTION */  
 
         * {
             margin: 0;
@@ -1015,9 +1002,6 @@ padding-right: 50px;
             color: #1d3b35;
         }
 
-
-
-           /* ABOUT SECTION */
 
         .about {
             width: 100%;

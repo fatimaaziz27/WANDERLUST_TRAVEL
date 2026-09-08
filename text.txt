@@ -152,18 +152,6 @@ We're available whenever you need help during your trip.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 5. About Wanderlust
 
 Create a two-column section.
@@ -213,6 +201,18 @@ Customer Satisfaction
 Button:
 
 Learn More
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
