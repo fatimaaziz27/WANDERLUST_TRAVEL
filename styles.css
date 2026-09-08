@@ -822,126 +822,173 @@ padding-right: 50px;
 
 
 
-/* Why Travel With Us */
 
-.why-us {
-    padding: 80px 8%;
-    background: #f8fafc;
-    text-align: center;
-}
+        /* =========================
+           GENERAL
+        ========================= */
 
-/* Section Heading */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.section-heading p {
-    color: #0284c7;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-.section-heading h2 {
-    font-size: 38px;
-    color: #0f172a;
-    margin-bottom: 12px;
-}
-
-.section-heading span {
-    color: #64748b;
-    font-size: 16px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+        }
 
 
-/* Cards Container */
+        /* =========================
+           WHY US SECTION
+        ========================= */
 
-.feature-cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    margin-top: 45px;
-}
-
-
-/* Individual Card */
-
-.feature-card {
-    background: white;
-    padding: 35px 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
+        .why-us {
+            padding: 80px 8%;
+            background: #f8fafc;
+            text-align: center;
+        }
 
 
-/* Hover Effect */
+        /* =========================
+           HEADING
+        ========================= */
 
-.feature-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-}
+        .section-heading {
+            max-width: 700px;
+            margin: auto;
+        }
 
+        .small-heading {
+            color: #0284c7;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
 
-/* Icon */
+        .section-heading h2 {
+            color: #0f172a;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
 
-.feature-icon {
-    width: 65px;
-    height: 65px;
-    margin: 0 auto 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: #e0f2fe;
-    border-radius: 50%;
-
-    font-size: 28px;
-}
-
-
-/* Card Heading */
-
-.feature-card h3 {
-    color: #0f172a;
-    font-size: 21px;
-    margin-bottom: 12px;
-}
+        .section-heading p:last-child {
+            color: #64748b;
+            font-size: 16px;
+            line-height: 1.6;
+        }
 
 
-/* Card Paragraph */
+        /* =========================
+           CARDS
+        ========================= */
 
-.feature-card p {
-    color: #64748b;
-    font-size: 15px;
-    line-height: 1.7;
-}
+        .feature-cards {
+            max-width: 1200px;
+            margin: 50px auto 0;
 
-
-/* Tablet */
-
-@media (max-width: 1000px) {
-
-    .feature-cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
 
 
-/* Mobile */
+        /* =========================
+           CARD
+        ========================= */
 
-@media (max-width: 600px) {
+        .feature-card {
+            background: white;
+            padding: 35px 25px;
 
-    .why-us {
-        padding: 60px 5%;
-    }
+            border-radius: 15px;
 
-    .section-heading h2 {
-        font-size: 30px;
-    }
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 
-    .feature-cards {
-        grid-template-columns: 1fr;
-    }
+            transition: 0.3s ease;
+        }
 
-}
+        .feature-card:hover {
+            transform: translateY(-8px);
+
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+
+        /* =========================
+           ICON
+        ========================= */
+
+        .feature-icon {
+            width: 65px;
+            height: 65px;
+
+            margin: 0 auto 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: #e0f2fe;
+
+            border-radius: 50%;
+
+            color: #0284c7;
+        }
+
+        .feature-icon i {
+            font-size: 26px;
+        }
+
+
+        /* =========================
+           CARD TEXT
+        ========================= */
+
+        .feature-card h3 {
+            color: #0f172a;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .feature-card p {
+            color: #64748b;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+
+        /* =========================
+           TABLET
+        ========================= */
+
+        @media (max-width: 1000px) {
+
+            .feature-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            .why-us {
+                padding: 60px 5%;
+            }
+
+            .section-heading h2 {
+                font-size: 30px;
+            }
+
+            .feature-cards {
+                grid-template-columns: 1fr;
+                margin-top: 35px;
+            }
+
+        }
