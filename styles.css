@@ -88,6 +88,12 @@ body {
 }
 
 
+
+
+
+
+
+
    /* HERO */
 
 .hero {
@@ -197,7 +203,7 @@ body {
 
 
 .small_heading {
-    font-size: 14px;
+    font-size: 20px;
 
     font-weight: bold;
 
@@ -208,7 +214,7 @@ body {
 
 
 .hero_content h1 {
-    font-size: 65px;
+    font-size: 85px;
 
     line-height: 1.1;
 
@@ -219,7 +225,7 @@ body {
 .hero_text {
     max-width: 600px;
 
-    font-size: 17px;
+    font-size: 20px;
 
     line-height: 1.7;
 
