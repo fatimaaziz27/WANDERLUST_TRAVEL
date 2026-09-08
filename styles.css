@@ -1014,9 +1014,7 @@ padding-right: 50px;
 
 
         
-        /* ================================
-           GENERAL
-        ================================= */
+           /* GENERAL */
 
         * {
             margin: 0;
@@ -1031,9 +1029,8 @@ padding-right: 50px;
         }
 
 
-        /* ================================
-           ABOUT SECTION
-        ================================= */
+
+           /* ABOUT SECTION */
 
         .about {
             width: 100%;
@@ -1050,9 +1047,7 @@ padding-right: 50px;
         }
 
 
-        /* ================================
-           LEFT IMAGE
-        ================================= */
+           /* LEFT IMAGE */
 
         .about-image {
             width: 100%;
@@ -1078,10 +1073,7 @@ padding-right: 50px;
             transform: scale(1.05);
         }
 
-
-        /* ================================
-           RIGHT CONTENT
-        ================================= */
+           /* RIGHT CONTENT */
 
         .about-content {
             max-width: 600px;
@@ -1128,10 +1120,7 @@ padding-right: 50px;
             margin-bottom: 15px;
         }
 
-
-        /* ================================
-           STATISTICS
-        ================================= */
+           /* STATISTICS */
 
         .statistics {
             display: grid;
@@ -1170,9 +1159,7 @@ padding-right: 50px;
         }
 
 
-        /* ================================
-           LEARN MORE BUTTON
-        ================================= */
+           /* LEARN MORE BUTTON */
 
         .learn-more {
             display: inline-block;
@@ -1201,11 +1188,8 @@ padding-right: 50px;
             transform: translateY(-2px);
         }
 
-
-        /* ================================
-           TABLET
-        ================================= */
-
+           /* TABLET */
+           
         @media (max-width: 1000px) {
 
             .about {
@@ -1229,9 +1213,7 @@ padding-right: 50px;
         }
 
 
-        /* ================================
-           MOBILE
-        ================================= */
+           /* MOBILE */
 
         @media (max-width: 600px) {
 
