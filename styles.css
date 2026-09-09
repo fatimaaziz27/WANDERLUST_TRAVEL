@@ -1319,7 +1319,6 @@ padding-right: 50px;
 
 .package_card {
     background: white;
-
     border-radius: 12px;
 
     overflow: hidden;
@@ -1372,9 +1371,9 @@ padding-right: 50px;
 
     top: 18px;
 
-    left: 18px;
+    left: 15px;
 
-    background: #0284c7;
+    background: #d99a25;
 
     color: white;
 
@@ -1382,11 +1381,11 @@ padding-right: 50px;
 
     border-radius: 5px;
 
-    font-size: 12px;
+    font-size: 13px;
 
     font-weight: bold;
 
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
 }
 
 
@@ -1401,7 +1400,7 @@ padding-right: 50px;
 .package_content h3 {
     font-size: 25px;
 
-    color: #0f172a;
+    color: #1d3b35;
 
     margin-bottom: 7px;
 }
@@ -1420,7 +1419,7 @@ padding-right: 50px;
 ========================= */
 
 .package_content h4 {
-    color: #0f172a;
+    color: #1d3b35;
 
     font-size: 16px;
 
@@ -1454,7 +1453,7 @@ padding-right: 50px;
 
     left: 0;
 
-    color: #0284c7;
+    color: #d99a25;
 
     font-weight: bold;
 }
@@ -1483,13 +1482,13 @@ padding-right: 50px;
 
     font-weight: bold;
 
-    color: #0f172a;
+    color: #1d3b35;
 }
 
 .package_btn {
     text-decoration: none;
 
-    background: #0284c7;
+    background: #d99a25;
 
     color: white;
 
@@ -1498,14 +1497,14 @@ padding-right: 50px;
     border-radius: 5px;
 
     font-size: 14px;
-
+    letter-spacing: 0.2px;
     font-weight: bold;
 
     transition: 0.3s;
 }
 
 .package_btn:hover {
-    background: #0369a1;
+    background: #d99a25;
 }
 
 
