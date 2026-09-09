@@ -1,6 +1,7 @@
 color : #d99a25
         #1d3b35
         white
+        hover : #b77c12
 
 Project 3 — Wanderlust Travel
 
