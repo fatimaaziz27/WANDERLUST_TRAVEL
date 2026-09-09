@@ -1554,3 +1554,217 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   SPECIAL OFFER
+========================= */
+
+.special_offer {
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 80px 7%;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("offer.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+
+/* =========================
+   OFFER CONTENT
+========================= */
+
+.offer_content {
+    max-width: 750px;
+
+    color: white;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* Small Heading */
+
+.offer_small_heading {
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Main Heading */
+
+.offer_content h2 {
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+
+/* Paragraph */
+
+.offer_text {
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+}
+
+
+/* =========================
+   OFFER BOX
+========================= */
+
+.offer_box {
+    display: inline-flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 18px 35px;
+
+    margin-bottom: 30px;
+
+    border: 2px solid white;
+
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    backdrop-filter: blur(5px);
+}
+
+
+/* Discount */
+
+.offer_box strong {
+    font-size: 32px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Selected Destinations */
+
+.offer_box span {
+    font-size: 14px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.offer_btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: white;
+
+    color: #0f172a;
+
+    padding: 14px 28px;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+
+.offer_btn:hover {
+    transform: translateY(-3px);
+
+    background: #0284c7;
+
+    color: white;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .special_offer {
+        min-height: 550px;
+
+        padding: 70px 5%;
+    }
+
+    .offer_content h2 {
+        font-size: 35px;
+    }
+
+    .offer_text {
+        font-size: 16px;
+    }
+
+    .offer_box strong {
+        font-size: 27px;
+    }
+
+}
