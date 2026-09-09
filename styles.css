@@ -1751,7 +1751,7 @@ body {
 
     border-radius: 5px;
 
-    background: #0284c7;
+    background: #d99a25;
 
     color: white;
 
@@ -1766,7 +1766,7 @@ body {
 
 
 .offer-button:hover {
-    background: #0369a1;
+    background: #b77c12;
 
     transform: translateY(-3px);
 }
