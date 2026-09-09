@@ -129,7 +129,6 @@ Experience the perfect combination of ancient traditions, modern technology, inc
 Explore →
 
 
-
 4. Why Travel With Us?
 
 Create 4 feature cards.
@@ -149,8 +148,6 @@ We work with reliable hotels, guides, and transportation providers.
 24/7 Support
 
 We're available whenever you need help during your trip.
-
-
 
 
 5. About Wanderlust
@@ -301,25 +298,6 @@ position: absolute;
 for the badge.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 7. Special Offer
 
 Create a visually different promotional section.
@@ -344,6 +322,35 @@ Button:
 
 Explore Offers
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 8. Travel Experiences
 
 Create a 4-card grid.
@@ -363,6 +370,11 @@ Discover local traditions, historical landmarks, food, and authentic experiences
 Food & Cuisine
 
 Taste traditional dishes and explore the world's most exciting food destinations.
+
+
+
+
+
 
 9. Customer Reviews
 Heading
@@ -389,6 +401,11 @@ Sophia Brown
 
 "Professional service, beautiful destinations, and great prices. I'll definitely book my next trip with Wanderlust."
 
+
+
+
+
+
 10. Newsletter Section
 
 Create a centered section.
@@ -410,6 +427,11 @@ Enter your email address
 Button:
 
 Subscribe
+
+
+
+
+
 
 11. Contact / Booking Section
 
@@ -481,6 +503,14 @@ Textarea
 Button
 
 Send Inquiry
+
+
+
+
+
+
+
+
 
 12. Footer
 WANDERLUST
