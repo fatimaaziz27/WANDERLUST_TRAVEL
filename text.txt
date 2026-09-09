@@ -295,13 +295,6 @@ Badge:
 
 LIMITED OFFER
 
-
-
-
-
-
-
-
 Package Card Challenge
 
 Try to create something similar to:
@@ -327,6 +320,26 @@ position: relative;
 position: absolute;
 
 for the badge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 7. Special Offer
 
