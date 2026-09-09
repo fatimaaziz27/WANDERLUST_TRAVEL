@@ -297,6 +297,23 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SEARCH BOX */
 
 .search_box {
@@ -304,8 +321,9 @@ body {
 
     padding: 20px;
     padding-bottom: 30px;
-padding-left: 50px;
-padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
     display: flex;
     align-items: flex-end;
 
@@ -341,7 +359,7 @@ padding-right: 50px;
 
     font-weight: bold;
 
-    color: #333;
+    color: #1d3b35;
 }
 
 
@@ -360,7 +378,7 @@ padding-right: 50px;
 
     font-size: 14px;
 
-    color: #333;
+    color:#999;
 
     background-color: white;
 }
@@ -929,7 +947,7 @@ padding-right: 50px;
         }
 
         .feature-icon i {
-            font-size: 50px;
+            font-size: 40px;
         }
 
 
