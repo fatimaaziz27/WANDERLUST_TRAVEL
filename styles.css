@@ -2321,7 +2321,7 @@ body {
 .newsletter {
     padding: 90px 7%;
 
-    background: #162c27;
+    background: #0d1a17;
 
     text-align: center;
 }
@@ -2366,7 +2366,7 @@ body {
 
     font-size: 45px;
 
-    color: #d99a25;
+    color: #f0ab2d;
 }
 
 
@@ -2556,16 +2556,16 @@ body {
 ================================= */
 
 .contact-info {
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 
 .contact-label {
     margin-bottom: 12px;
 
-    color: #0284c7;
+    color: #d99a25;
 
-    font-size: 14px;
+    font-size: 16px;
 
     font-weight: 700;
 
@@ -2576,7 +2576,7 @@ body {
 .contact-info h2 {
     margin-bottom: 20px;
 
-    color: #0f172a;
+    color: #1d3b35;
 
     font-size: 42px;
 
@@ -2636,7 +2636,7 @@ body {
 
     background: #e0f2fe;
 
-    color: #0284c7;
+    color: #d99a25;
 
     font-size: 18px;
 }
@@ -2645,7 +2645,7 @@ body {
 .contact-item h3 {
     margin-bottom: 5px;
 
-    color: #0f172a;
+    color: #000000;
 
     font-size: 16px;
 }
@@ -2662,12 +2662,21 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* =================================
    RIGHT SIDE FORM BOX
 ================================= */
 
 .contact-form-box {
-    padding: 35px;
+    padding: 40px;
 
     background: white;
 
@@ -2682,7 +2691,7 @@ body {
 .contact-form-box h2 {
     margin-bottom: 8px;
 
-    color: #0f172a;
+    color: #1d3b35;
 
     font-size: 28px;
 }
@@ -2722,7 +2731,7 @@ body {
 
 
 .form-group label {
-    color: #0f172a;
+    color: #1d3b35;
 
     font-size: 14px;
 
@@ -2762,7 +2771,7 @@ body {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-    border-color: #0284c7;
+    border-color: #d99a25;
 
     box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.10);
 }
@@ -2788,7 +2797,7 @@ body {
 
     border-radius: 5px;
 
-    background: #0284c7;
+    background: #d99a25;
 
     color: white;
 
@@ -2803,7 +2812,7 @@ body {
 
 
 .contact-button:hover {
-    background: #0369a1;
+    background: #b77c12;
 
     transform: translateY(-2px);
 }
