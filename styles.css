@@ -2482,3 +2482,367 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================
+   CONTACT / BOOKING SECTION
+================================= */
+
+.contact-section {
+    padding: 100px 7%;
+
+    background: #f8fafc;
+}
+
+
+/* =================================
+   MAIN CONTAINER
+================================= */
+
+.contact-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: start;
+}
+
+
+/* =================================
+   LEFT SIDE
+================================= */
+
+.contact-info {
+    padding-top: 10px;
+}
+
+
+.contact-label {
+    margin-bottom: 12px;
+
+    color: #0284c7;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+.contact-info h2 {
+    margin-bottom: 20px;
+
+    color: #0f172a;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+}
+
+
+.contact-description {
+    max-width: 520px;
+
+    margin-bottom: 40px;
+
+    color: #64748b;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+/* =================================
+   CONTACT DETAILS
+================================= */
+
+.contact-details {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+
+.contact-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+}
+
+
+.contact-icon {
+    width: 48px;
+
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e0f2fe;
+
+    color: #0284c7;
+
+    font-size: 18px;
+}
+
+
+.contact-item h3 {
+    margin-bottom: 5px;
+
+    color: #0f172a;
+
+    font-size: 16px;
+}
+
+
+.contact-item p {
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 5px;
+}
+
+
+/* =================================
+   RIGHT SIDE FORM BOX
+================================= */
+
+.contact-form-box {
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+.contact-form-box h2 {
+    margin-bottom: 8px;
+
+    color: #0f172a;
+
+    font-size: 28px;
+}
+
+
+.contact-form-box > p {
+    margin-bottom: 25px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =================================
+   FORM
+================================= */
+
+.travel-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+
+.form-group label {
+    color: #0f172a;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+/* =================================
+   INPUTS
+================================= */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    background: white;
+
+    color: #0f172a;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0284c7;
+
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.10);
+}
+
+
+.form-group textarea {
+    resize: vertical;
+
+    min-height: 120px;
+}
+
+
+/* =================================
+   BUTTON
+================================= */
+
+.contact-button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #0284c7;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+
+.contact-button:hover {
+    background: #0369a1;
+
+    transform: translateY(-2px);
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 900px) {
+
+    .contact-container {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .contact-section {
+        padding: 70px 5%;
+    }
+
+
+    .contact-info h2 {
+        font-size: 34px;
+    }
+
+
+    .contact-form-box {
+        padding: 25px;
+    }
+
+
+    .contact-form-box h2 {
+        font-size: 24px;
+    }
+
+}
