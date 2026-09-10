@@ -1586,7 +1586,7 @@ body {
 
     padding: 80px 7%;
 
-    background-image: url("about.avif");
+    background-image: url("maldives.webp");
 
     background-size: cover;
     background-position: center;
@@ -1673,7 +1673,7 @@ body {
 .discount-box {
     display: inline-block;
 
-    padding: 18px 35px;
+    padding: 15px 30px;
 
     margin-bottom: 30px;
 
@@ -1824,7 +1824,7 @@ body {
 
 .experiences {
     padding: 100px 7%;
-
+padding-bottom: 90px;
     background: #ffffff;
 }
 
@@ -2062,7 +2062,7 @@ body {
 
 .reviews {
     padding: 100px 7%;
-
+    padding-bottom: 160px;
     background: #f8fafc;
 }
 
@@ -2899,7 +2899,7 @@ body {
 ================================= */
 
 .footer {
-    background: #0f172a;
+    background: #0d1a17;
 
     color: white;
 
@@ -2998,7 +2998,7 @@ body {
 }
 
 .footer-column a:hover {
-    color: #38bdf8;
+    color: #b77c12;
 
     transform: translateX(3px);
 }
