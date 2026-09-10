@@ -2273,3 +2273,212 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================
+   NEWSLETTER SECTION
+================================= */
+
+.newsletter {
+    padding: 90px 7%;
+
+    background: #0f172a;
+
+    text-align: center;
+}
+
+
+/* =================================
+   CONTENT
+================================= */
+
+.newsletter-content {
+    max-width: 750px;
+
+    margin: auto;
+
+    color: white;
+}
+
+
+/* =================================
+   SMALL HEADING
+================================= */
+
+.newsletter-label {
+    margin-bottom: 12px;
+
+    color: #38bdf8;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+/* =================================
+   MAIN HEADING
+================================= */
+
+.newsletter-content h2 {
+    margin-bottom: 15px;
+
+    font-size: 42px;
+
+    color: white;
+}
+
+
+/* =================================
+   DESCRIPTION
+================================= */
+
+.newsletter-text {
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+
+    color: #cbd5e1;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+/* =================================
+   FORM
+================================= */
+
+.newsletter-form {
+    max-width: 600px;
+
+    margin: auto;
+
+    display: flex;
+
+    gap: 10px;
+}
+
+
+/* =================================
+   INPUT
+================================= */
+
+.newsletter-form input {
+    flex: 1;
+
+    padding: 15px 18px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    font-size: 15px;
+
+    color: #0f172a;
+}
+
+.newsletter-form input::placeholder {
+    color: #94a3b8;
+}
+
+
+/* =================================
+   BUTTON
+================================= */
+
+.newsletter-form button {
+    padding: 15px 28px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #0284c7;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background: #0369a1;
+
+    transform: translateY(-2px);
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 600px) {
+
+    .newsletter {
+        padding: 70px 5%;
+    }
+
+    .newsletter-content h2 {
+        font-size: 32px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+}
