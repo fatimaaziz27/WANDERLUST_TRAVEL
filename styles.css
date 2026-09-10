@@ -1815,12 +1815,8 @@ body {
 
 
 
-/* 
 
-
-<!-- ================================
-     TRAVEL EXPERIENCES
-================================= --> */
+     /* TRAVEL EXPERIENCES */
 
 .experiences {
     padding: 100px 7%;
@@ -1829,9 +1825,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   SECTION HEADING
-================================= */
+   /* SECTION HEADING */
 
 .experiences-heading {
     max-width: 700px;
@@ -1870,9 +1864,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CARD GRID
-================================= */
+   /* CARD GRID */
 
 .experience-container {
     max-width: 1200px;
@@ -1887,9 +1879,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   EXPERIENCE CARD
-================================= */
+   /* EXPERIENCE CARD */
 
 .experience-card {
     padding: 35px 25px;
@@ -1913,9 +1903,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   ICON
-================================= */
+   /* ICON */
 
 .experience-icon {
     width: 70px;
@@ -1940,9 +1928,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CARD HEADING
-================================= */
+   /* CARD HEADING */
 
 .experience-card h3 {
     margin-bottom: 12px;
@@ -1953,9 +1939,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CARD TEXT
-================================= */
+   /* CARD TEXT */
 
 .experience-card p {
     min-height: 100px;
@@ -1970,9 +1954,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CARD LINK
-================================= */
+   /* CARD LINK */
 
 .experience-card a {
     color: #d99a25;
@@ -1992,9 +1974,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+   /* RESPONSIVE */
 
 @media (max-width: 1000px) {
 
@@ -2056,9 +2036,7 @@ padding-bottom: 90px;
 
 
 
-/* =================================
-   CUSTOMER REVIEWS
-================================= */
+   /* CUSTOMER REVIEWS */
 
 .reviews {
     padding: 100px 7%;
@@ -2067,9 +2045,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   SECTION HEADING
-================================= */
+   /* SECTION HEADING */
 
 .reviews-heading {
     max-width: 700px;
@@ -2108,9 +2084,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   REVIEW CONTAINER
-================================= */
+   /* REVIEW CONTAINER */
 
 .reviews-container {
     max-width: 1100px;
@@ -2125,9 +2099,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   REVIEW CARD
-================================= */
+   /* REVIEW CARD */
 
 .review-card {
     padding: 35px 30px;
@@ -2150,9 +2122,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   STARS
-================================= */
+   /* STARS */
 
 .review-stars {
     margin-bottom: 20px;
@@ -2165,9 +2135,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   REVIEW TEXT
-================================= */
+   /* REVIEW TEXT */
 
 .review-text {
     min-height: 120px;
@@ -2181,12 +2149,9 @@ padding-bottom: 90px;
     line-height: 1.8;
 }
 
+   /* AUTHOR */
 
-/* =================================
-   AUTHOR
-================================= */
-
-.review-author {
+   .review-author {
     display: flex;
 
     align-items: center;
@@ -2199,9 +2164,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   AUTHOR ICON
-================================= */
+   /* AUTHOR ICON */
 
 .author-icon {
     width: 48px;
@@ -2226,9 +2189,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   AUTHOR NAME
-================================= */
+   /* AUTHOR NAME */
 
 .review-author h3 {
     margin-bottom: 4px;
@@ -2245,9 +2206,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+   /* RESPONSIVE */
 
 @media (max-width: 900px) {
 
@@ -2314,9 +2273,7 @@ padding-bottom: 90px;
 
 
 
-/* =================================
-   NEWSLETTER SECTION
-================================= */
+   /* NEWSLETTER SECTION */
 
 .newsletter {
     padding: 90px 7%;
@@ -2327,9 +2284,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CONTENT
-================================= */
+   /* CONTENT */
 
 .newsletter-content {
     max-width: 750px;
@@ -2340,9 +2295,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   SMALL HEADING
-================================= */
+   /* SMALL HEADING */
 
 .newsletter-label {
     margin-bottom: 11px;
@@ -2357,9 +2310,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   MAIN HEADING
-================================= */
+   /* MAIN HEADING */
 
 .newsletter-content h2 {
     margin-bottom: 15px;
@@ -2370,9 +2321,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   DESCRIPTION
-================================= */
+   /* DESCRIPTION */
 
 .newsletter-text {
     max-width: 650px;
@@ -2387,9 +2336,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   FORM
-================================= */
+   /* FORM */
 
 .newsletter-form {
     max-width: 600px;
@@ -2402,9 +2349,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   INPUT
-================================= */
+   /* INPUT */
 
 .newsletter-form input {
     flex: 1;
@@ -2427,9 +2372,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   BUTTON
-================================= */
+   /* BUTTON */
 
 .newsletter-form button {
     padding: 15px 28px;
@@ -2458,9 +2401,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+   /* RESPONSIVE */
 
 @media (max-width: 600px) {
 
@@ -2521,9 +2462,7 @@ padding-bottom: 90px;
 
 
 
-/* =================================
-   CONTACT / BOOKING SECTION
-================================= */
+   /* CONTACT / BOOKING SECTION */
 
 .contact-section {
     padding: 100px 7%;
@@ -2531,10 +2470,7 @@ padding-bottom: 90px;
     background: #f8fafc;
 }
 
-
-/* =================================
-   MAIN CONTAINER
-================================= */
+   /* MAIN CONTAINER */
 
 .contact-container {
     max-width: 1200px;
@@ -2551,9 +2487,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   LEFT SIDE
-================================= */
+   /* LEFT SIDE */
 
 .contact-info {
     padding-top: 50px;
@@ -2597,9 +2531,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   CONTACT DETAILS
-================================= */
+   /* CONTACT DETAILS */
 
 .contact-details {
     display: flex;
@@ -2671,9 +2603,7 @@ padding-bottom: 90px;
 
 
 
-/* =================================
-   RIGHT SIDE FORM BOX
-================================= */
+   /* RIGHT SIDE FORM BOX */
 
 .contact-form-box {
     padding: 40px;
@@ -2708,9 +2638,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   FORM
-================================= */
+   /* FORM */
 
 .travel-form {
     display: flex;
@@ -2739,9 +2667,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   INPUTS
-================================= */
+   /* INPUTS */
 
 .form-group input,
 .form-group select,
@@ -2784,9 +2710,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   BUTTON
-================================= */
+   /* BUTTON */
 
 .contact-button {
     width: 100%;
@@ -2818,9 +2742,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+   /* RESPONSIVE */
 
 @media (max-width: 900px) {
 
@@ -2873,30 +2795,7 @@ padding-bottom: 90px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =================================
-   FOOTER
-================================= */
+   /* FOOTER */
 
 .footer {
     background: #0d1a17;
@@ -2907,9 +2806,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   FOOTER CONTAINER
-================================= */
+   /* FOOTER CONTAINER */
 
 .footer-container {
     max-width: 1200px;
@@ -2926,9 +2823,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   BRAND
-================================= */
+   /* BRAND */
 
 .footer-brand h2 {
     margin-bottom: 15px;
@@ -2947,9 +2842,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   COLUMN HEADING
-================================= */
+   /* COLUMN HEADING */
 
 .footer-column h3 {
     margin-bottom: 20px;
@@ -2960,9 +2853,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   LIST
-================================= */
+   /* LIST */
 
 .footer-column ul {
     list-style: none;
@@ -2977,9 +2868,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   LINKS
-================================= */
+   /* LINKS */
 
 .footer-column a {
     display: inline-flex;
@@ -3004,9 +2893,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   SOCIAL ICONS
-================================= */
+   /* SOCIAL ICONS */
 
 .footer-column a i {
     width: 18px;
@@ -3017,9 +2904,7 @@ padding-bottom: 90px;
 }
 
 
-/* =================================
-   FOOTER BOTTOM
-================================= */
+   /* FOOTER BOTTOM */
 
 .footer-bottom {
     max-width: 1200px;
@@ -3041,10 +2926,7 @@ padding-bottom: 90px;
     font-size: 13px;
 }
 
-
-/* =================================
-   RESPONSIVE
-================================= */
+   /* RESPONSIVE */
 
 @media (max-width: 900px) {
 
