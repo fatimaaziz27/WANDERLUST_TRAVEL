@@ -564,62 +564,11 @@ Footer Text
 
 
 WANDERLUST TRAVEL
-PROJECT 4 — ADVANCED HTML & CSS UPGRADE
-
-==================================================
-PROJECT 4 GOAL
-==============
-
-Do NOT create a new project from scratch.
-
-Continue working on the existing:
-
-WANDERLUST_TRAVEL
-
-GitHub:
-https://github.com/fatimaaziz27/WANDERLUST_TRAVEL
+ADVANCED HTML & CSS UPGRADE
 
 The existing Wanderlust website will become a larger MULTI-PAGE website.
 
 You will keep your current Home page and add new pages and advanced layouts.
-
-Technologies:
-
-* HTML5
-* CSS3
-
-Do NOT use:
-
-* JavaScript
-* Bootstrap
-* Tailwind
-* React
-* Any CSS framework
-
-The goal is to improve your HTML and CSS skills by continuously upgrading the same project.
-
-==================================================
-CURRENT PROJECT
-===============
-
-You already have:
-
-* Home
-* Hero section
-* Destinations
-* Packages
-* About
-* Reviews
-* Contact
-* Footer
-* Responsive design
-* Images
-* Cards
-* Forms
-* CSS Grid
-* Flexbox
-* Hover effects
-* Media queries
 
 ==================================================
 NEW PROJECT 4 CONCEPT
