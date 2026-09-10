@@ -497,172 +497,42 @@ Footer Text
 
 
 
-Suggested Color Palette
-
-This time, don't randomly choose colors.
-
-Try something like:
-
-Primary:     #0F766E
-Secondary:   #14B8A6
-Accent:      #F59E0B
-Dark:        #0F172A
-Light:       #F8FAFC
-White:       #FFFFFF
-
-You can change these if you develop your own design.
 
 
 
 
-Responsive Requirements
-
-Your website must work on:
-
-Desktop
-[ Card ] [ Card ] [ Card ]
-[ Card ] [ Card ] [ Card ]
-Tablet
-[ Card ] [ Card ]
-[ Card ] [ Card ]
-[ Card ] [ Card ]
-Mobile
-[ Card ]
-[ Card ]
-[ Card ]
-[ Card ]
-[ Card ]
-[ Card ]
-
-The same principle should apply to:
-
-Destinations
-Packages
-Experiences
-Testimonials
-Contact section
-
-
-New CSS Challenges
-
-These are the things I especially want you to practice in Project 3.
-
-1. Overlapping elements
-
-For example, the search box can overlap the bottom of your hero.
-
-Practice:
-
-position: relative;
-position: absolute;
-2. Image overlays
-
-Try creating a dark gradient over destination images so the destination name can sit on top of the image.
-
-3. Badges
-
-Create:
-
-BEST SELLER
-
-POPULAR
-
-LIMITED OFFER
-
-using absolute positioning.
-
-4. CSS Grid
-
-Use Grid for:
-
-Destinations
-Packages
-Experiences
-Testimonials
-5. Flexbox
-
-Use Flexbox for:
-
-Navbar
-Hero buttons
-Statistics
-Package footer
-Contact information
-6. Hover effects
-
-Try making destination cards do something when the mouse enters them.
-
-For example:
-
-Image zoom
-Card moves slightly upward
-Button changes
-Overlay becomes darker/lighter
-
-Don't copy all of these—experiment.
-
-7. CSS Variables
-
-Use:
-
-:root {
-    --primary: ...;
-    --secondary: ...;
-    --accent: ...;
-    --dark: ...;
-    --light: ...;
-}
-
-This should now become a normal habit.
-
-Suggested Folder Structure
-WANDERLUST_TRAVEL/
-│
-├── index.html
-├── style.css
-│
-├── images/
-│   ├── hero.jpg
-│   ├── paris.jpg
-│   ├── bali.jpg
-│   ├── dubai.jpg
-│   ├── switzerland.jpg
-│   ├── maldives.jpg
-│   ├── tokyo.jpg
-│   ├── package1.jpg
-│   ├── package2.jpg
-│   └── package3.jpg
-│
-└── README.md
-
-Bonus Challenges
-
-If you finish everything above, try these without JavaScript:
-
-Add a CSS-only dropdown menu
-Add animated underline to navbar links
-Add a hover zoom effect to destination images
-Make the search box overlap the hero
-Make the package cards equal height
-Add a "20% OFF" circular badge
-Create a CSS-only hamburger menu if you can figure it out
-Add scroll-behavior: smooth
-Add focus styles to form inputs
-Make the entire website mobile-friendly
 
 
 
-What makes Project 3 different?
 
-Your first projects were mainly about building sections.
 
-Now I want you to start thinking about design systems and layout relationships:
 
-Hero → overlapping search box → destination grid → feature cards → package cards → promotional section → testimonials → forms
 
-Don't worry if it takes longer than the previous two projects. That's intentional.
 
-Build it yourself first. If you get stuck, send me the specific HTML/CSS you're working on rather than asking for the complete solution. I'll help you understand the problem without taking the practice away from you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
